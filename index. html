@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKUR BARU MEBEL | Toko Online</title>
+<meta name="description" content="AKUR BARU MEBEL menyediakan berbagai kebutuhan furnitur dan perabot rumah tangga.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#202938;background:#f7f8fa;line-height:1.6}
+header{background:#101d35;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:21px;font-weight:bold;letter-spacing:1px}
+nav a{color:white;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:65px 7%;background:linear-gradient(120deg,#142541,#344c70);color:white}
+.hero h1{font-size:clamp(30px,6vw,48px);max-width:650px;line-height:1.2}
+.hero p{margin:18px 0;max-width:550px;color:#e1e7f0}
+.btn{display:inline-block;background:#e6b95c;color:#17243a;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:bold}
+section{padding:45px 6%}
+.section-title{text-align:center;margin-bottom:28px}
+.section-title h2{font-size:27px;color:#142541}
+.categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px}
+.category,.product{background:white;padding:20px;border-radius:10px;text-align:center;box-shadow:0 3px 14px #15243a10}
+.category{font-weight:bold;color:#263b5b}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.product-image{height:150px;border-radius:8px;background:linear-gradient(135deg,#e3e8ef,#c8d2df);display:grid;place-items:center;color:#52637b;font-size:42px;margin-bottom:14px}
+.product h3{font-size:17px;margin-bottom:7px}
+.product p{font-size:14px;color:#697586}
+.product .price{font-weight:bold;color:#172c4c;margin:12px 0}
+.info{background:#e9eef5;text-align:center}
+.info p{max-width:650px;margin:10px auto;color:#46556a}
+footer{background:#101d35;color:#dce4ef;padding:28px 6%;text-align:center;font-size:14px}
+@media(max-width:600px){header{justify-content:center}nav a{margin:0 7px}.hero{padding:48px 6%}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">AKUR BARU MEBEL</div>
+    <nav>
+        <a href="#beranda">Beranda</a>
+            <a href="#kategori">Kategori</a>
+                <a href="#produk">Produk</a>
+                    <a href="#kontak">Kontak</a>
+                      </nav>
+                      </header>
+
+                      <main>
+                      <section class="hero" id="beranda">
+                        <h1>Lengkapi Rumah Anda Bersama AKUR BARU MEBEL</h1>
+                          <p>Temukan berbagai pilihan furnitur dan perabot rumah tangga. Belanja lebih mudah, praktis, dan nyaman dari rumah.</p>
+                            <a class="btn" href="#produk">Lihat Katalog Produk</a>
+                            </section>
+
+                            <section id="kategori">
+                              <div class="section-title">
+                                  <h2>Kategori Produk</h2>
+                                      <p>Pilihan kebutuhan rumah tangga Anda</p>
+                                        </div>
+                                          <div class="categories">
+                                              <div class="category">🪑 Kursi</div>
+                                                  <div class="category">🛋️ Sofa</div>
+                                                      <div class="category">🪵 Meja</div>
+                                                          <div class="category">🗄️ Lemari</div>
+                                                              <div class="category">🏠 Perabot Rumah</div>
+                                                                </div>
+                                                                </section>
+
+                                                                <section id="produk">
+                                                                  <div class="section-title">
+                                                                      <h2>Katalog Produk</h2>
+                                                                          <p>Beberapa contoh kategori produk toko kami</p>
+                                                                            </div>
+                                                                              <div class="products">
+                                                                                  <article class="product">
+                                                                                        <div class="product-image">🪑</div>
+                                                                                              <h3>Kursi Plastik</h3>
+                                                                                                    <p>Berbagai model dan pilihan warna.</p>
+                                                                                                          <div class="price">Hubungi untuk harga</div>
+                                                                                                              </article>
+                                                                                                                  <article class="product">
+                                                                                                                        <div class="product-image">🛋️</div>
+                                                                                                                              <h3>Sofa</h3>
+                                                                                                                                    <p>Pilihan sofa untuk ruang keluarga.</p>
+                                                                                                                                          <div class="price">Hubungi untuk harga</div>
+                                                                                                                                              </article>
+                                                                                                                                                  <article class="product">
+                                                                                                                                                        <div class="product-image">🪵</div>
+                                                                                                                                                              <h3>Meja Rumah Tangga</h3>
+                                                                                                                                                                    <p>Beragam pilihan meja untuk kebutuhan rumah.</p>
+                                                                                                                                                                          <div class="price">Hubungi untuk harga</div>
+                                                                                                                                                                              </article>
+                                                                                                                                                                                  <article class="product">
+                                                                                                                                                                                        <div class="product-image">🗄️</div>
+                                                                                                                                                                                              <h3>Lemari</h3>
+                                                                                                                                                                                                    <p>Solusi penyimpanan perlengkapan rumah.</p>
+                                                                                                                                                                                                          <div class="price">Hubungi untuk harga</div>
+                                                                                                                                                                                                              </article>
+                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                </section>
+
+                                                                                                                                                                                                                <section class="info">
+                                                                                                                                                                                                                  <div class="section-title">
+                                                                                                                                                                                                                      <h2>Belanja Mudah dan Praktis</h2>
+                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                          <p>AKUR BARU MEBEL melayani pemesanan online, pengiriman barang, dan pengambilan langsung berdasarkan janji terlebih dahulu.</p>
+                                                                                                                                                                                                                          </section>
+
+                                                                                                                                                                                                                          <section id="kontak">
+                                                                                                                                                                                                                            <div class="section-title">
+                                                                                                                                                                                                                                <h2>Hubungi Kami</h2>
+                                                                                                                                                                                                                                    <p>Silakan hubungi toko untuk informasi produk, harga, dan pemesanan.</p>
+                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                        <div style="text-align:center">
+                                                                                                                                                                                                                                            <a class="btn" href="mailto:">Hubungi Toko</a>
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                              </section>
+                                                                                                                                                                                                                                              </main>
+
+                                                                                                                                                                                                                                              <footer>
+                                                                                                                                                                                                                                                <strong>AKUR BARU MEBEL</strong>
+                                                                                                                                                                                                                                                  <p>Toko Online Perabot Rumah Tangga</p>
+                                                                                                                                                                                                                                                    <p>© 2026 AKUR BARU MEBEL. Hak cipta dilindungi.</p>
+                                                                                                                                                                                                                                                    </footer>
+
+                                                                                                                                                                                                                                                    </body>
+                                                                                                                                                                                                                                                    </html>
+                                                                                                                                                                                                                                                    
